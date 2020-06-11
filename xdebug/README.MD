@@ -11,17 +11,25 @@ xdebug.remote_enable=1
 2.菜单:File | Settings | Languages & Frameworks | PHP | Debug | DBGp Proxy
 
 > IDE key:PHPSTORM #与xdebug.idekey一致
+
 > host:local.project #虚拟主机
+
 > port:80 #网站端口
 
 3.菜单:File | Settings | Languages & Frameworks | PHP | Servers
 添加
 > name :project  #随便起
+
 > host :local.project #虚拟主机
+
 > port:80 #网站端口
+
 > Debuger :xdebug
+
 > use path mapping :  #选中
+
 > File/directory:  #项目本地路径
+
 > absolute path on the server # docker 对应目录
 
 4.编辑器右上角 add configureation  (run/debug configureation)
